@@ -1,0 +1,128 @@
+* {
+  font-family: "Prompt", sans-serif;
+}
+body {
+  background-color: #14171a;
+}
+a {
+  text-decoration: none;
+}
+i {
+  margin: 0 2rem 0 1rem;
+}
+h1,
+h2 {
+  color: white;
+  letter-spacing: 1px;
+}
+.twitter-container {
+  display: flex;
+}
+.second-container {
+  padding: 3%;
+}
+.twitter-logo {
+  z-index: 2;
+  position: absolute;
+  left: 15%;
+  top: 24%;
+  font-size: 255px;
+  color: white;
+}
+#twitter-bgi {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+.twitter-bg {
+  width: 50%;
+}
+.twitter-btn,
+.twitter-btn > a {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 3px 10px 6px 10px;
+  border-radius: 17px;
+  margin: 10px;
+}
+.explore-container {
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.acc-image {
+  width: 20%;
+  margin-right: 2rem;
+}
+.follow-btn {
+  margin-left: 1rem;
+  font-size: 14px;
+  padding: 2px 15px;
+  border-radius: 15px;
+}
+.account-container {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.acc-avatar {
+  width: 100%;
+  border-radius: 100%;
+}
+.acc-desc > h2 {
+  font-size: 24px;
+}
+.acc-desc > p {
+  margin-top: -10px;
+}
+.falsh {
+  color: red;
+}
+@media (max-width: 1000px) {
+  .twitter-container {
+    flex-direction: column-reverse;
+  }
+  h1 {
+    margin-bottom: 4px;
+  }
+  .second-container {
+    height: 50vh;
+  }
+  .iii {
+    padding-left: 1rem;
+  }
+  .twitter-btn {
+    padding: 6px 0;
+  }
+  .twitter-logo {
+    font-size: 195px;
+    color: white;
+    left: 25%;
+    top: 25%;
+    position: absolute;
+  }
+
+  #twitter-bgi {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+  }
+  .twitter-bg {
+    width: 100%;
+    position: relative;
+  }
+  .explore-container,
+  .account-container {
+    width: 100%;
+    border: none;
+  }
+}
